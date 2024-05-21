@@ -1,121 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Dead Coders Society</title>
-        <style type="text/css">
-            body {
-                background: #111;
-                margin: 40px;
-                max-width: 650px;
-                line-height: 1.6;
-                font-size: 18px;
-                color: #EEEEEE ;
-                padding: 0 10px;
-            }
-
-            h1,h2,h3 {
-                line-height: 1.2;
-            }
-
-            a {
-                color: #1E90FF;
-                text-decoration: none;
-            }
-
-            a:hover {
-                color: #6495ED;
-            }
-
-            a:visited {
-                color: #4682B4;
-            }
-
-            a:active {
-                color: #1C86EE;
-            }
-
-            .content-section {
-                display: none;
-                margin-top: 20px;
-            }
-        </style>
-    </head>
-    <body>
-        <div>
-            <div class="content">
-                <header><h1>Dead Coders Society</h1></header>
-                <p>
-                    This is the unofficial society dedicated to aspiring devs or whatever the fuck you want to be 
-                    <br>
-                    <h3>
-                        <a href="#" onclick="toggleVisibility('who-we-are-content')">Who are we</a>
-                        &nbsp &nbsp
-                        <a href="#" onclick="toggleVisibility('our-mission-content')">Our mission</a>
-                        &nbsp &nbsp
-                        <a href="#" onclick="toggleVisibility('intended-outcome')">Intended Outcome</a>
-                    </h3>
-                    <br>
-                    <div id="our-mission-content" class="content-section">
-                        <p>
-                            Namaste Sweeties, <br>
-                            Well summers are around the corner and most of you will likely go home with उम्मीदें ki 
-                            Ye seekhna hai, wo seekhna hai, wagera wagera... and sure most of you will go home, will learn for few days.... and that's it.
-                            
-                            Jab tum log wapas aaoge, you will see ki चुनिंदा kuch hee log honge jinhone uss 2 mahine ke time kuch kiya tha.
-                            <br><br>
-                            <b>How do we know this?!</b>
-                            <br><br>
-                            We are in 2nd year now moving to 3rd year toh ye hamari technically teesri vacation hai
-                            
-                            And believe me(writer/composer of this simple ass website)
-                            <br>
-                            Jyada tar log jaise jaate hai waise hee aa jaate hai. ( including us, ofc).
-                            <br>
-                            
-                            So there is this problem
-                            No motivation, inspiration, goal
-                        </p>
-                    </div>
-                    <div id="intended-outcome" class="content-section">
-                        <h2>What do we want out of this</h2>
-                        <p>
-                            You have been in college for past one or two years and we don't have a developer community in our college except for OSDC (Jo ki bahut hi achhe h)
-                            What this is, What DCS is? Is our attempt to make a dev community which is beginner friendly and .......
-                        </p>
-                        <h2>What you should want (ideally)</h2>
-                        <p>
-                            Your "why DCS" is simple 
-                            <br>
-                            Tumne sapne bahut sajaein honge, khwab bhi bahut dekhe honge ki yeh skill sikh lenge vo skill sikh lenge aur din kaffi hai toh kar hi lenge,
-                            yaad karna yahi same khwab tumne college aane se pehle bhi soche the, aur yeh hi JEE se pehle bhi. This is a common trait in students of this college
-                            We dream big, we do a little and we expect a lot.  
-                            <br>
-                            Toh <br><br>
-                            What we are intending to provide is simple
-                            A community where you/we can and will learn together..
-                            Abhi ke liye itna hi socha h 
-                            Peace ✌️
-                        </p>
-                    </div>
-                </p>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dead Coders Society</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div>
+        <div class="content">
+            <div class="header">
+                <h1>Dead Coders Society</h1>
+                <img src="./images/Dead Coders (1).png" class="logo">
             </div>
-            <div class="image">
-            </div>
+            <p>
+                This is the unofficial society dedicated to aspiring devs or whatever the fuck you want to be 
+                <br>
+                <h3>
+                    <a href="#" onclick="toggleVisibility('who-we-are-content')">Who are we</a>
+                    &nbsp &nbsp
+                    <a href="#" onclick="toggleVisibility('our-mission-content')">Our mission</a>
+                    &nbsp &nbsp
+                    <a href="#" onclick="toggleVisibility('intended-outcome')">Intended Outcome</a>
+                </h3>
+                <br>
+                <div id="our-mission-content" class="content-section">
+                    <p>
+                        Namaste Sweeties, <br>
+                        Well summers are around the corner and most of you will likely go home with उम्मीदें ki 
+                        Ye seekhna hai, wo seekhna hai, wagera wagera... and sure most of you will go home, will learn for few days.... and that's it.<br> Like Seriously<br>
+                        
+                        Jab tum log wapas aaoge, you will see ki चुनिंदा kuch hee log honge jinhone inn 2 mahine ke time kuch kiya hoga, like as in kuch worth while kiya hoga.
+                        <br><br>
+                        <b>How do we know this?!</b>
+                        <br><br>
+                        We are in 2nd year now moving to 3rd year toh ye hamari technically teesri vacation hai
+                        
+                        And believe me(writer/composer of this simple ass website)
+                        <br>
+                        Jyada tar log jaise jaate hai waise hee aa jaate hai. ( including us, ofc).<br>
+                        i.e. technical skill <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;before vaction == after vaction
+                        <br>
+                        
+                        So there is this problem
+                        No motivation, inspiration, goal
+                    </p>
+                </div>
+                <div id="intended-outcome" class="content-section">
+                    <h2>What do we want out of this</h2>
+                    <p>
+                        You have been in college for past one or two years and we don't have a developer community in our college except for OSDC (Jo ki bahut hi achhe h)
+                        What this is, What DCS is? Is our attempt to make a dev community which is beginner friendly and .......
+                    </p>
+                    <h2>What you should want (ideally)</h2>
+                    <p>
+                        Your "why DCS" is simple 
+                        <br>
+                        Tumne sapne bahut sajaein honge, khwab bhi bahut dekhe honge ki yeh skill sikh lenge vo skill sikh lenge aur din kaffi hai toh kar hi lenge,
+                        yaad karna yahi same khwab tumne college aane se pehle bhi soche the, aur yeh hi JEE se pehle bhi. This is a common trait in students of this college
+                        We dream big, we do a little and we expect a lot.  
+                        <br>
+                        Toh <br><br>
+                        What we are intending to provide is simple
+                        A community where you/we can and will learn together..
+                        Abhi ke liye itna hi socha h 
+                        Peace ✌️
+                    </p>
+                </div>
+            </p>
         </div>
-        <script>
-            function toggleVisibility(id) {
-                var sections = document.querySelectorAll('.content-section');
-                sections.forEach(function(section) {
-                    if (section.id === id) {
-                        section.style.display = section.style.display === 'block' ? 'none' : 'block';
+    </div>
+    <!-- <script>
+        function toggleVisibility(id) {
+            var sections = document.querySelectorAll('.content-section');
+            sections.forEach(function(section) {
+                if (section.id === id) {
+                    section.style.display = section.style.display === 'block' ? 'none' : 'block';
                     } else {
-                        section.style.display = 'none';
-                    }
-                });
-            }
-        </script>
-    </body>
+                    section.style.display = 'none';
+                }
+            });
+        }
+    </script> -->
+</body>
 </html>
-< Additional comment -->

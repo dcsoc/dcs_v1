@@ -1,0 +1,49 @@
+body {
+    background: #111;
+    margin: 40px;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #EEEEEE;
+    padding: 0 10px;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6495ED;
+}
+
+a:visited {
+    color: #4682B4;
+}
+
+a:active {
+    color: #1C86EE;
+}
+
+.content-section {
+    /* display: none; */
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    margin-right: 20px;
+}
+
+.logo {
+    width: 100px; /* Adjust as necessary */
+    height: auto;
+}
