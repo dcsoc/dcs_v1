@@ -19,18 +19,20 @@ a {
 
 a:hover {
     color: #6495ED;
+    text-decoration: underline;
 }
 
 a:visited {
-    color: #4682B4;
+    color: #1E90FF
 }
 
 a:active {
     color: #1C86EE;
 }
 
+
 .content-section {
-    /* display: none; */
+    display: none;
     margin-top: 20px;
 }
 
